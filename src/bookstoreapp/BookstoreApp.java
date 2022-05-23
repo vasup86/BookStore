@@ -44,7 +44,7 @@ public class BookstoreApp extends Application {
     
     @Override
     public void start(Stage primaryStage) {
-        connection(); //initalize inital connection with DB server and get current books and customer info
+        connection(); //initalize connection with DB server and get current books and customer info
         Label user_id=new Label("User ID"); 
         Label welcome = new Label("Welcome to the BookStore");
         Label pass = new Label("Password");  
